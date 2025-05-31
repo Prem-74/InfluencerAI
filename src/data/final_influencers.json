@@ -1,0 +1,2071 @@
+[
+  {
+    "creator_id": "c001",
+    "name": "Ritika Dutta",
+    "handle": "@ritikadutta",
+    "location": "Hyderabad, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc001@influencer.com",
+    "description": "Ritika Dutta is a prominent gaming influencer based in India, known for creative content on platforms like Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/ritikadutta",
+        "profile_image": "https://example.com/profiles/c001.jpg",
+        "followers": 499530,
+        "average_views": 53064,
+        "engagement_rate": 4.8
+      }
+    ]
+  },
+  {
+    "creator_id": "c002",
+    "name": "Rehan Reddy",
+    "handle": "@rehanreddy",
+    "location": "Pune, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Fitness",
+    "tags": [
+      "fitness",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Amazon"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc002@influencer.com",
+    "description": "Rehan Reddy is a prominent fitness influencer based in India, known for creative content on platforms like LinkedIn, Twitter.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/rehanreddy",
+        "profile_image": "https://example.com/profiles/c002.jpg",
+        "followers": 894515,
+        "average_views": 1328,
+        "engagement_rate": 3.76
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/rehanreddy",
+        "profile_image": "https://example.com/profiles/c002.jpg",
+        "followers": 260085,
+        "average_views": 44593,
+        "engagement_rate": 2.32
+      }
+    ]
+  },
+  {
+    "creator_id": "c003",
+    "name": "Ritika Khanna",
+    "handle": "@ritikakhanna",
+    "location": "Bangalore, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc003@influencer.com",
+    "description": "Ritika Khanna is a prominent gaming influencer based in India, known for creative content on platforms like YouTube, Twitter.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/ritikakhanna",
+        "profile_image": "https://example.com/profiles/c003.jpg",
+        "followers": 405770,
+        "average_views": 52670,
+        "engagement_rate": 3.84
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/ritikakhanna",
+        "profile_image": "https://example.com/profiles/c003.jpg",
+        "followers": 291480,
+        "average_views": 57680,
+        "engagement_rate": 3.21
+      }
+    ]
+  },
+  {
+    "creator_id": "c004",
+    "name": "Siddharth Malhotra",
+    "handle": "@siddharthmalhotra",
+    "location": "Pune, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Food",
+    "tags": [
+      "food",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Apple",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc004@influencer.com",
+    "description": "Siddharth Malhotra is a prominent food influencer based in India, known for creative content on platforms like LinkedIn, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/siddharthmalhotra",
+        "profile_image": "https://example.com/profiles/c004.jpg",
+        "followers": 193025,
+        "average_views": 26478,
+        "engagement_rate": 1.87
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/siddharthmalhotra",
+        "profile_image": "https://example.com/profiles/c004.jpg",
+        "followers": 813034,
+        "average_views": 62240,
+        "engagement_rate": 4.79
+      }
+    ]
+  },
+  {
+    "creator_id": "c005",
+    "name": "Aarav Agarwal",
+    "handle": "@aaravagarwal",
+    "location": "Bangalore, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Food",
+    "tags": [
+      "food",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Amazon",
+      "Nike"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc005@influencer.com",
+    "description": "Aarav Agarwal is a prominent food influencer based in India, known for creative content on platforms like LinkedIn.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/aaravagarwal",
+        "profile_image": "https://example.com/profiles/c005.jpg",
+        "followers": 711778,
+        "average_views": 69058,
+        "engagement_rate": 5.45
+      }
+    ]
+  },
+  {
+    "creator_id": "c006",
+    "name": "Aditi Joshi",
+    "handle": "@aditijoshi",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Samsung"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc006@influencer.com",
+    "description": "Aditi Joshi is a prominent fashion influencer based in India, known for creative content on platforms like Twitter.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/aditijoshi",
+        "profile_image": "https://example.com/profiles/c006.jpg",
+        "followers": 389495,
+        "average_views": 49141,
+        "engagement_rate": 5.04
+      }
+    ]
+  },
+  {
+    "creator_id": "c007",
+    "name": "Vihaan Joshi",
+    "handle": "@vihaanjoshi",
+    "location": "Delhi, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Fitness",
+    "tags": [
+      "fitness",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Samsung",
+      "Nike"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc007@influencer.com",
+    "description": "Vihaan Joshi is a prominent fitness influencer based in India, known for creative content on platforms like Twitter, YouTube.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/vihaanjoshi",
+        "profile_image": "https://example.com/profiles/c007.jpg",
+        "followers": 316126,
+        "average_views": 75599,
+        "engagement_rate": 5.8
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/vihaanjoshi",
+        "profile_image": "https://example.com/profiles/c007.jpg",
+        "followers": 196135,
+        "average_views": 38852,
+        "engagement_rate": 5.83
+      }
+    ]
+  },
+  {
+    "creator_id": "c008",
+    "name": "Ananya Singhania",
+    "handle": "@ananyasinghania",
+    "location": "Mumbai, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Finance",
+    "tags": [
+      "finance",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Amazon"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc008@influencer.com",
+    "description": "Ananya Singhania is a prominent finance influencer based in India, known for creative content on platforms like LinkedIn, Instagram, Twitter.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/ananyasinghania",
+        "profile_image": "https://example.com/profiles/c008.jpg",
+        "followers": 126726,
+        "average_views": 59623,
+        "engagement_rate": 2.55
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/ananyasinghania",
+        "profile_image": "https://example.com/profiles/c008.jpg",
+        "followers": 772534,
+        "average_views": 41675,
+        "engagement_rate": 3.57
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/ananyasinghania",
+        "profile_image": "https://example.com/profiles/c008.jpg",
+        "followers": 195454,
+        "average_views": 50954,
+        "engagement_rate": 2.41
+      }
+    ]
+  },
+  {
+    "creator_id": "c009",
+    "name": "Ishita Menon",
+    "handle": "@ishitamenon",
+    "location": "Pune, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Samsung"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc009@influencer.com",
+    "description": "Ishita Menon is a prominent tech influencer based in India, known for creative content on platforms like LinkedIn, Instagram, Twitter.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/ishitamenon",
+        "profile_image": "https://example.com/profiles/c009.jpg",
+        "followers": 683950,
+        "average_views": 31692,
+        "engagement_rate": 3.37
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/ishitamenon",
+        "profile_image": "https://example.com/profiles/c009.jpg",
+        "followers": 921576,
+        "average_views": 31312,
+        "engagement_rate": 1.88
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/ishitamenon",
+        "profile_image": "https://example.com/profiles/c009.jpg",
+        "followers": 206599,
+        "average_views": 78049,
+        "engagement_rate": 4.14
+      }
+    ]
+  },
+  {
+    "creator_id": "c010",
+    "name": "Aarav Kapoor",
+    "handle": "@aaravkapoor",
+    "location": "Delhi, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Samsung",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc010@influencer.com",
+    "description": "Aarav Kapoor is a prominent tech influencer based in India, known for creative content on platforms like YouTube.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/aaravkapoor",
+        "profile_image": "https://example.com/profiles/c010.jpg",
+        "followers": 840747,
+        "average_views": 30492,
+        "engagement_rate": 5.66
+      }
+    ]
+  },
+  {
+    "creator_id": "c011",
+    "name": "Payal Mehra",
+    "handle": "@payalmehra",
+    "location": "Delhi, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Apple"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc011@influencer.com",
+    "description": "Payal Mehra is a prominent education influencer based in India, known for creative content on platforms like Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/payalmehra",
+        "profile_image": "https://example.com/profiles/c011.jpg",
+        "followers": 160714,
+        "average_views": 61508,
+        "engagement_rate": 1.35
+      }
+    ]
+  },
+  {
+    "creator_id": "c012",
+    "name": "Karan Kapoor",
+    "handle": "@karankapoor",
+    "location": "Mumbai, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Fitness",
+    "tags": [
+      "fitness",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Samsung"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc012@influencer.com",
+    "description": "Karan Kapoor is a prominent fitness influencer based in India, known for creative content on platforms like Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/karankapoor",
+        "profile_image": "https://example.com/profiles/c012.jpg",
+        "followers": 112589,
+        "average_views": 51609,
+        "engagement_rate": 5.07
+      }
+    ]
+  },
+  {
+    "creator_id": "c013",
+    "name": "Raghav Desai",
+    "handle": "@raghavdesai",
+    "location": "Mumbai, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Finance",
+    "tags": [
+      "finance",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Nike",
+      "Apple"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc013@influencer.com",
+    "description": "Raghav Desai is a prominent finance influencer based in India, known for creative content on platforms like Twitter, YouTube, Instagram.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/raghavdesai",
+        "profile_image": "https://example.com/profiles/c013.jpg",
+        "followers": 236117,
+        "average_views": 34880,
+        "engagement_rate": 1.99
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/raghavdesai",
+        "profile_image": "https://example.com/profiles/c013.jpg",
+        "followers": 676827,
+        "average_views": 24554,
+        "engagement_rate": 2.47
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/raghavdesai",
+        "profile_image": "https://example.com/profiles/c013.jpg",
+        "followers": 682521,
+        "average_views": 71984,
+        "engagement_rate": 4.08
+      }
+    ]
+  },
+  {
+    "creator_id": "c014",
+    "name": "Nisha Pillai",
+    "handle": "@nishapillai",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Art",
+    "tags": [
+      "art",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Zomato"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc014@influencer.com",
+    "description": "Nisha Pillai is a prominent art influencer based in India, known for creative content on platforms like YouTube, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/nishapillai",
+        "profile_image": "https://example.com/profiles/c014.jpg",
+        "followers": 809990,
+        "average_views": 79472,
+        "engagement_rate": 4.12
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/nishapillai",
+        "profile_image": "https://example.com/profiles/c014.jpg",
+        "followers": 211146,
+        "average_views": 65803,
+        "engagement_rate": 5.72
+      }
+    ]
+  },
+  {
+    "creator_id": "c015",
+    "name": "Pooja Khanna",
+    "handle": "@poojakhanna",
+    "location": "Mumbai, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Amazon",
+      "Samsung"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc015@influencer.com",
+    "description": "Pooja Khanna is a prominent education influencer based in India, known for creative content on platforms like Instagram, Twitter, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/poojakhanna",
+        "profile_image": "https://example.com/profiles/c015.jpg",
+        "followers": 419235,
+        "average_views": 70428,
+        "engagement_rate": 2.8
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/poojakhanna",
+        "profile_image": "https://example.com/profiles/c015.jpg",
+        "followers": 733432,
+        "average_views": 53288,
+        "engagement_rate": 5.69
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/poojakhanna",
+        "profile_image": "https://example.com/profiles/c015.jpg",
+        "followers": 580166,
+        "average_views": 3785,
+        "engagement_rate": 5.45
+      }
+    ]
+  },
+  {
+    "creator_id": "c016",
+    "name": "Rohan Sharma",
+    "handle": "@rohansharma",
+    "location": "Delhi, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Travel",
+    "tags": [
+      "travel",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc016@influencer.com",
+    "description": "Rohan Sharma is a prominent travel influencer based in India, known for creative content on platforms like Twitter, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/rohansharma",
+        "profile_image": "https://example.com/profiles/c016.jpg",
+        "followers": 907964,
+        "average_views": 38474,
+        "engagement_rate": 3.94
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/rohansharma",
+        "profile_image": "https://example.com/profiles/c016.jpg",
+        "followers": 587942,
+        "average_views": 56436,
+        "engagement_rate": 3.04
+      }
+    ]
+  },
+  {
+    "creator_id": "c017",
+    "name": "Rajiv Patel",
+    "handle": "@rajivpatel",
+    "location": "Bangalore, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Samsung",
+      "Nike"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc017@influencer.com",
+    "description": "Rajiv Patel is a prominent gaming influencer based in India, known for creative content on platforms like Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/rajivpatel",
+        "profile_image": "https://example.com/profiles/c017.jpg",
+        "followers": 928835,
+        "average_views": 37571,
+        "engagement_rate": 1.11
+      }
+    ]
+  },
+  {
+    "creator_id": "c018",
+    "name": "Neha Mehra",
+    "handle": "@nehamehra",
+    "location": "Hyderabad, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Apple",
+      "Samsung"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc018@influencer.com",
+    "description": "Neha Mehra is a prominent fashion influencer based in India, known for creative content on platforms like YouTube, Instagram, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/nehamehra",
+        "profile_image": "https://example.com/profiles/c018.jpg",
+        "followers": 984668,
+        "average_views": 75456,
+        "engagement_rate": 2.58
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/nehamehra",
+        "profile_image": "https://example.com/profiles/c018.jpg",
+        "followers": 351241,
+        "average_views": 69171,
+        "engagement_rate": 5.71
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/nehamehra",
+        "profile_image": "https://example.com/profiles/c018.jpg",
+        "followers": 137111,
+        "average_views": 7552,
+        "engagement_rate": 2.45
+      }
+    ]
+  },
+  {
+    "creator_id": "c019",
+    "name": "Vihaan Menon",
+    "handle": "@vihaanmenon",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Travel",
+    "tags": [
+      "travel",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Apple",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc019@influencer.com",
+    "description": "Vihaan Menon is a prominent travel influencer based in India, known for creative content on platforms like YouTube, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/vihaanmenon",
+        "profile_image": "https://example.com/profiles/c019.jpg",
+        "followers": 944378,
+        "average_views": 30779,
+        "engagement_rate": 2.66
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/vihaanmenon",
+        "profile_image": "https://example.com/profiles/c019.jpg",
+        "followers": 926436,
+        "average_views": 68740,
+        "engagement_rate": 4.1
+      }
+    ]
+  },
+  {
+    "creator_id": "c020",
+    "name": "Vihaan Pillai",
+    "handle": "@vihaanpillai",
+    "location": "Mumbai, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Amazon",
+      "Nike"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc020@influencer.com",
+    "description": "Vihaan Pillai is a prominent gaming influencer based in India, known for creative content on platforms like YouTube.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/vihaanpillai",
+        "profile_image": "https://example.com/profiles/c020.jpg",
+        "followers": 923279,
+        "average_views": 11737,
+        "engagement_rate": 4.27
+      }
+    ]
+  },
+  {
+    "creator_id": "c021",
+    "name": "Ananya Chopra",
+    "handle": "@ananyachopra",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Apple",
+      "Amazon"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc021@influencer.com",
+    "description": "Ananya Chopra is a prominent education influencer based in India, known for creative content on platforms like LinkedIn, Instagram, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/ananyachopra",
+        "profile_image": "https://example.com/profiles/c021.jpg",
+        "followers": 163927,
+        "average_views": 52907,
+        "engagement_rate": 1.84
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/ananyachopra",
+        "profile_image": "https://example.com/profiles/c021.jpg",
+        "followers": 501855,
+        "average_views": 45231,
+        "engagement_rate": 4.64
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/ananyachopra",
+        "profile_image": "https://example.com/profiles/c021.jpg",
+        "followers": 918049,
+        "average_views": 51140,
+        "engagement_rate": 2.76
+      }
+    ]
+  },
+  {
+    "creator_id": "c022",
+    "name": "Shreya Sharma",
+    "handle": "@shreyasharma",
+    "location": "Delhi, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Nike",
+      "Apple"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc022@influencer.com",
+    "description": "Shreya Sharma is a prominent education influencer based in India, known for creative content on platforms like YouTube, Instagram, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/shreyasharma",
+        "profile_image": "https://example.com/profiles/c022.jpg",
+        "followers": 808610,
+        "average_views": 23220,
+        "engagement_rate": 4.09
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/shreyasharma",
+        "profile_image": "https://example.com/profiles/c022.jpg",
+        "followers": 243845,
+        "average_views": 31204,
+        "engagement_rate": 2.86
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/shreyasharma",
+        "profile_image": "https://example.com/profiles/c022.jpg",
+        "followers": 998201,
+        "average_views": 78587,
+        "engagement_rate": 1.73
+      }
+    ]
+  },
+  {
+    "creator_id": "c023",
+    "name": "Ira Desai",
+    "handle": "@iradesai",
+    "location": "Pune, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Amazon"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc023@influencer.com",
+    "description": "Ira Desai is a prominent education influencer based in India, known for creative content on platforms like Instagram.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/iradesai",
+        "profile_image": "https://example.com/profiles/c023.jpg",
+        "followers": 125666,
+        "average_views": 41126,
+        "engagement_rate": 3.21
+      }
+    ]
+  },
+  {
+    "creator_id": "c024",
+    "name": "Sneha Malhotra",
+    "handle": "@snehamalhotra",
+    "location": "Pune, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Finance",
+    "tags": [
+      "finance",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc024@influencer.com",
+    "description": "Sneha Malhotra is a prominent finance influencer based in India, known for creative content on platforms like LinkedIn.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/snehamalhotra",
+        "profile_image": "https://example.com/profiles/c024.jpg",
+        "followers": 228146,
+        "average_views": 62566,
+        "engagement_rate": 5.81
+      }
+    ]
+  },
+  {
+    "creator_id": "c025",
+    "name": "Raghav Bhardwaj",
+    "handle": "@raghavbhardwaj",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Nike"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc025@influencer.com",
+    "description": "Raghav Bhardwaj is a prominent gaming influencer based in India, known for creative content on platforms like LinkedIn.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/raghavbhardwaj",
+        "profile_image": "https://example.com/profiles/c025.jpg",
+        "followers": 223243,
+        "average_views": 58975,
+        "engagement_rate": 4.22
+      }
+    ]
+  },
+  {
+    "creator_id": "c026",
+    "name": "Meera Joshi",
+    "handle": "@meerajoshi",
+    "location": "Bangalore, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Parenting",
+    "tags": [
+      "parenting",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc026@influencer.com",
+    "description": "Meera Joshi is a prominent parenting influencer based in India, known for creative content on platforms like LinkedIn, Instagram.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/meerajoshi",
+        "profile_image": "https://example.com/profiles/c026.jpg",
+        "followers": 561563,
+        "average_views": 67309,
+        "engagement_rate": 5.7
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/meerajoshi",
+        "profile_image": "https://example.com/profiles/c026.jpg",
+        "followers": 722935,
+        "average_views": 4813,
+        "engagement_rate": 5.88
+      }
+    ]
+  },
+  {
+    "creator_id": "c027",
+    "name": "Sameer Sharma",
+    "handle": "@sameersharma",
+    "location": "Bangalore, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Food",
+    "tags": [
+      "food",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Amazon",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc027@influencer.com",
+    "description": "Sameer Sharma is a prominent food influencer based in India, known for creative content on platforms like YouTube, Instagram.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/sameersharma",
+        "profile_image": "https://example.com/profiles/c027.jpg",
+        "followers": 938709,
+        "average_views": 36988,
+        "engagement_rate": 1.72
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/sameersharma",
+        "profile_image": "https://example.com/profiles/c027.jpg",
+        "followers": 544666,
+        "average_views": 6019,
+        "engagement_rate": 2.37
+      }
+    ]
+  },
+  {
+    "creator_id": "c028",
+    "name": "Nisha Yadav",
+    "handle": "@nishayadav",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Amazon",
+      "Zomato"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc028@influencer.com",
+    "description": "Nisha Yadav is a prominent tech influencer based in India, known for creative content on platforms like Twitter, YouTube, Instagram.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/nishayadav",
+        "profile_image": "https://example.com/profiles/c028.jpg",
+        "followers": 585502,
+        "average_views": 57102,
+        "engagement_rate": 1.36
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/nishayadav",
+        "profile_image": "https://example.com/profiles/c028.jpg",
+        "followers": 851283,
+        "average_views": 74322,
+        "engagement_rate": 4.55
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/nishayadav",
+        "profile_image": "https://example.com/profiles/c028.jpg",
+        "followers": 503141,
+        "average_views": 12688,
+        "engagement_rate": 4.75
+      }
+    ]
+  },
+  {
+    "creator_id": "c029",
+    "name": "Arjun Bansal",
+    "handle": "@arjunbansal",
+    "location": "Bangalore, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Food",
+    "tags": [
+      "food",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Nike",
+      "Amazon"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc029@influencer.com",
+    "description": "Arjun Bansal is a prominent food influencer based in India, known for creative content on platforms like Twitter.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/arjunbansal",
+        "profile_image": "https://example.com/profiles/c029.jpg",
+        "followers": 765339,
+        "average_views": 57574,
+        "engagement_rate": 1.06
+      }
+    ]
+  },
+  {
+    "creator_id": "c030",
+    "name": "Aditi Bhardwaj",
+    "handle": "@aditibhardwaj",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Parenting",
+    "tags": [
+      "parenting",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Nike",
+      "Apple"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc030@influencer.com",
+    "description": "Aditi Bhardwaj is a prominent parenting influencer based in India, known for creative content on platforms like LinkedIn, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/aditibhardwaj",
+        "profile_image": "https://example.com/profiles/c030.jpg",
+        "followers": 500801,
+        "average_views": 43729,
+        "engagement_rate": 5.37
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/aditibhardwaj",
+        "profile_image": "https://example.com/profiles/c030.jpg",
+        "followers": 313659,
+        "average_views": 38061,
+        "engagement_rate": 1.96
+      }
+    ]
+  },
+  {
+    "creator_id": "c031",
+    "name": "Ananya Khanna",
+    "handle": "@ananyakhanna",
+    "location": "Pune, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Travel",
+    "tags": [
+      "travel",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Nike",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc031@influencer.com",
+    "description": "Ananya Khanna is a prominent travel influencer based in India, known for creative content on platforms like LinkedIn, Twitter, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/ananyakhanna",
+        "profile_image": "https://example.com/profiles/c031.jpg",
+        "followers": 697543,
+        "average_views": 38215,
+        "engagement_rate": 2.09
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/ananyakhanna",
+        "profile_image": "https://example.com/profiles/c031.jpg",
+        "followers": 17800,
+        "average_views": 43621,
+        "engagement_rate": 1.27
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/ananyakhanna",
+        "profile_image": "https://example.com/profiles/c031.jpg",
+        "followers": 422096,
+        "average_views": 21838,
+        "engagement_rate": 1.8
+      }
+    ]
+  },
+  {
+    "creator_id": "c032",
+    "name": "Meera Bhardwaj",
+    "handle": "@meerabhardwaj",
+    "location": "Mumbai, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Samsung"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc032@influencer.com",
+    "description": "Meera Bhardwaj is a prominent gaming influencer based in India, known for creative content on platforms like Twitter, Instagram.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/meerabhardwaj",
+        "profile_image": "https://example.com/profiles/c032.jpg",
+        "followers": 629324,
+        "average_views": 1368,
+        "engagement_rate": 5.24
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/meerabhardwaj",
+        "profile_image": "https://example.com/profiles/c032.jpg",
+        "followers": 992747,
+        "average_views": 7441,
+        "engagement_rate": 3.54
+      }
+    ]
+  },
+  {
+    "creator_id": "c033",
+    "name": "Neha Bansal",
+    "handle": "@nehabansal",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Art",
+    "tags": [
+      "art",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Apple"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc033@influencer.com",
+    "description": "Neha Bansal is a prominent art influencer based in India, known for creative content on platforms like LinkedIn, Instagram.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/nehabansal",
+        "profile_image": "https://example.com/profiles/c033.jpg",
+        "followers": 180956,
+        "average_views": 37957,
+        "engagement_rate": 5.72
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/nehabansal",
+        "profile_image": "https://example.com/profiles/c033.jpg",
+        "followers": 304660,
+        "average_views": 70713,
+        "engagement_rate": 1.38
+      }
+    ]
+  },
+  {
+    "creator_id": "c034",
+    "name": "Aditi Desai",
+    "handle": "@aditidesai",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc034@influencer.com",
+    "description": "Aditi Desai is a prominent fashion influencer based in India, known for creative content on platforms like LinkedIn.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/aditidesai",
+        "profile_image": "https://example.com/profiles/c034.jpg",
+        "followers": 877558,
+        "average_views": 5736,
+        "engagement_rate": 4.8
+      }
+    ]
+  },
+  {
+    "creator_id": "c035",
+    "name": "Rehan Singhania",
+    "handle": "@rehansinghania",
+    "location": "Mumbai, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Parenting",
+    "tags": [
+      "parenting",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc035@influencer.com",
+    "description": "Rehan Singhania is a prominent parenting influencer based in India, known for creative content on platforms like Instagram, Twitter, YouTube.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/rehansinghania",
+        "profile_image": "https://example.com/profiles/c035.jpg",
+        "followers": 465211,
+        "average_views": 27998,
+        "engagement_rate": 5.93
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/rehansinghania",
+        "profile_image": "https://example.com/profiles/c035.jpg",
+        "followers": 91273,
+        "average_views": 31192,
+        "engagement_rate": 4.67
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/rehansinghania",
+        "profile_image": "https://example.com/profiles/c035.jpg",
+        "followers": 533331,
+        "average_views": 22768,
+        "engagement_rate": 4.95
+      }
+    ]
+  },
+  {
+    "creator_id": "c036",
+    "name": "Rajiv Sharma",
+    "handle": "@rajivsharma",
+    "location": "Hyderabad, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Amazon",
+      "Apple"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc036@influencer.com",
+    "description": "Rajiv Sharma is a prominent education influencer based in India, known for creative content on platforms like YouTube, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/rajivsharma",
+        "profile_image": "https://example.com/profiles/c036.jpg",
+        "followers": 645951,
+        "average_views": 17050,
+        "engagement_rate": 2.82
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/rajivsharma",
+        "profile_image": "https://example.com/profiles/c036.jpg",
+        "followers": 309829,
+        "average_views": 69588,
+        "engagement_rate": 1.52
+      }
+    ]
+  },
+  {
+    "creator_id": "c037",
+    "name": "Yash Mehra",
+    "handle": "@yashmehra",
+    "location": "Delhi, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Gaming",
+    "tags": [
+      "gaming",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Samsung"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc037@influencer.com",
+    "description": "Yash Mehra is a prominent gaming influencer based in India, known for creative content on platforms like Instagram, YouTube.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/yashmehra",
+        "profile_image": "https://example.com/profiles/c037.jpg",
+        "followers": 717429,
+        "average_views": 15226,
+        "engagement_rate": 5.7
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/yashmehra",
+        "profile_image": "https://example.com/profiles/c037.jpg",
+        "followers": 608277,
+        "average_views": 58737,
+        "engagement_rate": 2.21
+      }
+    ]
+  },
+  {
+    "creator_id": "c038",
+    "name": "Ishita Joshi",
+    "handle": "@ishitajoshi",
+    "location": "Bangalore, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc038@influencer.com",
+    "description": "Ishita Joshi is a prominent fashion influencer based in India, known for creative content on platforms like Twitter, Instagram, YouTube.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/ishitajoshi",
+        "profile_image": "https://example.com/profiles/c038.jpg",
+        "followers": 367924,
+        "average_views": 76943,
+        "engagement_rate": 4.59
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/ishitajoshi",
+        "profile_image": "https://example.com/profiles/c038.jpg",
+        "followers": 265741,
+        "average_views": 56808,
+        "engagement_rate": 5.6
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/ishitajoshi",
+        "profile_image": "https://example.com/profiles/c038.jpg",
+        "followers": 843484,
+        "average_views": 30526,
+        "engagement_rate": 3.9
+      }
+    ]
+  },
+  {
+    "creator_id": "c039",
+    "name": "Neha Pillai",
+    "handle": "@nehapillai",
+    "location": "Pune, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Nike",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc039@influencer.com",
+    "description": "Neha Pillai is a prominent fashion influencer based in India, known for creative content on platforms like LinkedIn, Twitter.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/nehapillai",
+        "profile_image": "https://example.com/profiles/c039.jpg",
+        "followers": 592773,
+        "average_views": 54164,
+        "engagement_rate": 4.3
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/nehapillai",
+        "profile_image": "https://example.com/profiles/c039.jpg",
+        "followers": 301511,
+        "average_views": 66669,
+        "engagement_rate": 3.39
+      }
+    ]
+  },
+  {
+    "creator_id": "c040",
+    "name": "Nikhil Pillai",
+    "handle": "@nikhilpillai",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Fashion",
+    "tags": [
+      "fashion",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Amazon",
+      "Zomato"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc040@influencer.com",
+    "description": "Nikhil Pillai is a prominent fashion influencer based in India, known for creative content on platforms like Instagram, YouTube.",
+    "platforms": [
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/nikhilpillai",
+        "profile_image": "https://example.com/profiles/c040.jpg",
+        "followers": 112532,
+        "average_views": 34138,
+        "engagement_rate": 3.71
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/nikhilpillai",
+        "profile_image": "https://example.com/profiles/c040.jpg",
+        "followers": 399057,
+        "average_views": 55179,
+        "engagement_rate": 1.49
+      }
+    ]
+  },
+  {
+    "creator_id": "c041",
+    "name": "Shreya Khanna",
+    "handle": "@shreyakhanna",
+    "location": "Delhi, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Samsung",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc041@influencer.com",
+    "description": "Shreya Khanna is a prominent tech influencer based in India, known for creative content on platforms like LinkedIn, Twitter, Instagram.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/shreyakhanna",
+        "profile_image": "https://example.com/profiles/c041.jpg",
+        "followers": 969256,
+        "average_views": 31867,
+        "engagement_rate": 4.19
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/shreyakhanna",
+        "profile_image": "https://example.com/profiles/c041.jpg",
+        "followers": 879167,
+        "average_views": 5873,
+        "engagement_rate": 3.76
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/shreyakhanna",
+        "profile_image": "https://example.com/profiles/c041.jpg",
+        "followers": 39380,
+        "average_views": 75460,
+        "engagement_rate": 4.88
+      }
+    ]
+  },
+  {
+    "creator_id": "c042",
+    "name": "Pooja Singhania",
+    "handle": "@poojasinghania",
+    "location": "Pune, India",
+    "languages": [
+      "Telugu",
+      "Hindi"
+    ],
+    "category": "Fitness",
+    "tags": [
+      "fitness",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Nike"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc042@influencer.com",
+    "description": "Pooja Singhania is a prominent fitness influencer based in India, known for creative content on platforms like Twitter, LinkedIn.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/poojasinghania",
+        "profile_image": "https://example.com/profiles/c042.jpg",
+        "followers": 105589,
+        "average_views": 11867,
+        "engagement_rate": 5.37
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/poojasinghania",
+        "profile_image": "https://example.com/profiles/c042.jpg",
+        "followers": 831142,
+        "average_views": 48823,
+        "engagement_rate": 3.28
+      }
+    ]
+  },
+  {
+    "creator_id": "c043",
+    "name": "Tanya Yadav",
+    "handle": "@tanyayadav",
+    "location": "Bangalore, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Education",
+    "tags": [
+      "education",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Nike",
+      "Amazon"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc043@influencer.com",
+    "description": "Tanya Yadav is a prominent education influencer based in India, known for creative content on platforms like Twitter.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/tanyayadav",
+        "profile_image": "https://example.com/profiles/c043.jpg",
+        "followers": 27829,
+        "average_views": 58667,
+        "engagement_rate": 1.25
+      }
+    ]
+  },
+  {
+    "creator_id": "c044",
+    "name": "Payal Chopra",
+    "handle": "@payalchopra",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Samsung"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc044@influencer.com",
+    "description": "Payal Chopra is a prominent tech influencer based in India, known for creative content on platforms like LinkedIn, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/payalchopra",
+        "profile_image": "https://example.com/profiles/c044.jpg",
+        "followers": 354770,
+        "average_views": 61304,
+        "engagement_rate": 5.95
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/payalchopra",
+        "profile_image": "https://example.com/profiles/c044.jpg",
+        "followers": 77907,
+        "average_views": 21014,
+        "engagement_rate": 3.07
+      }
+    ]
+  },
+  {
+    "creator_id": "c045",
+    "name": "Sneha Singhania",
+    "handle": "@snehasinghania",
+    "location": "Pune, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Art",
+    "tags": [
+      "art",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Amazon",
+      "Apple"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc045@influencer.com",
+    "description": "Sneha Singhania is a prominent art influencer based in India, known for creative content on platforms like YouTube, LinkedIn, Twitter.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/snehasinghania",
+        "profile_image": "https://example.com/profiles/c045.jpg",
+        "followers": 789462,
+        "average_views": 71720,
+        "engagement_rate": 4.03
+      },
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/snehasinghania",
+        "profile_image": "https://example.com/profiles/c045.jpg",
+        "followers": 157254,
+        "average_views": 17153,
+        "engagement_rate": 3.02
+      },
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/snehasinghania",
+        "profile_image": "https://example.com/profiles/c045.jpg",
+        "followers": 887019,
+        "average_views": 43047,
+        "engagement_rate": 1.24
+      }
+    ]
+  },
+  {
+    "creator_id": "c046",
+    "name": "Priya Chopra",
+    "handle": "@priyachopra",
+    "location": "Delhi, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Art",
+    "tags": [
+      "art",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Apple"
+    ],
+    "pricing_tier": "high",
+    "contact_email": "contactc046@influencer.com",
+    "description": "Priya Chopra is a prominent art influencer based in India, known for creative content on platforms like YouTube.",
+    "platforms": [
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/priyachopra",
+        "profile_image": "https://example.com/profiles/c046.jpg",
+        "followers": 691463,
+        "average_views": 72833,
+        "engagement_rate": 5.18
+      }
+    ]
+  },
+  {
+    "creator_id": "c047",
+    "name": "Sameer Desai",
+    "handle": "@sameerdesai",
+    "location": "Bangalore, India",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "category": "Tech",
+    "tags": [
+      "tech",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Zomato",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc047@influencer.com",
+    "description": "Sameer Desai is a prominent tech influencer based in India, known for creative content on platforms like LinkedIn, Instagram, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/sameerdesai",
+        "profile_image": "https://example.com/profiles/c047.jpg",
+        "followers": 35501,
+        "average_views": 68977,
+        "engagement_rate": 4.48
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/sameerdesai",
+        "profile_image": "https://example.com/profiles/c047.jpg",
+        "followers": 123594,
+        "average_views": 18487,
+        "engagement_rate": 2.76
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/sameerdesai",
+        "profile_image": "https://example.com/profiles/c047.jpg",
+        "followers": 29291,
+        "average_views": 34314,
+        "engagement_rate": 1.19
+      }
+    ]
+  },
+  {
+    "creator_id": "c048",
+    "name": "Vikram Reddy",
+    "handle": "@vikramreddy",
+    "location": "Hyderabad, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Fitness",
+    "tags": [
+      "fitness",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Nike"
+    ],
+    "pricing_tier": "low",
+    "contact_email": "contactc048@influencer.com",
+    "description": "Vikram Reddy is a prominent fitness influencer based in India, known for creative content on platforms like LinkedIn, YouTube.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/vikramreddy",
+        "profile_image": "https://example.com/profiles/c048.jpg",
+        "followers": 690691,
+        "average_views": 26702,
+        "engagement_rate": 1.54
+      },
+      {
+        "platform": "YouTube",
+        "profile_url": "https://youtube.com/vikramreddy",
+        "profile_image": "https://example.com/profiles/c048.jpg",
+        "followers": 961786,
+        "average_views": 26900,
+        "engagement_rate": 3.27
+      }
+    ]
+  },
+  {
+    "creator_id": "c049",
+    "name": "Kiara Desai",
+    "handle": "@kiaradesai",
+    "location": "Mumbai, India",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "category": "Parenting",
+    "tags": [
+      "parenting",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": false,
+    "previous_collaborations": [
+      "Zomato",
+      "Samsung"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc049@influencer.com",
+    "description": "Kiara Desai is a prominent parenting influencer based in India, known for creative content on platforms like LinkedIn, Instagram.",
+    "platforms": [
+      {
+        "platform": "LinkedIn",
+        "profile_url": "https://linkedin.com/kiaradesai",
+        "profile_image": "https://example.com/profiles/c049.jpg",
+        "followers": 73883,
+        "average_views": 28823,
+        "engagement_rate": 1.07
+      },
+      {
+        "platform": "Instagram",
+        "profile_url": "https://instagram.com/kiaradesai",
+        "profile_image": "https://example.com/profiles/c049.jpg",
+        "followers": 496564,
+        "average_views": 50772,
+        "engagement_rate": 2.59
+      }
+    ]
+  },
+  {
+    "creator_id": "c050",
+    "name": "Tanvi Reddy",
+    "handle": "@tanvireddy",
+    "location": "Delhi, India",
+    "languages": [
+      "English"
+    ],
+    "category": "Food",
+    "tags": [
+      "food",
+      "influencer",
+      "brandcollab"
+    ],
+    "collaboration_open": true,
+    "previous_collaborations": [
+      "Apple",
+      "Amazon"
+    ],
+    "pricing_tier": "medium",
+    "contact_email": "contactc050@influencer.com",
+    "description": "Tanvi Reddy is a prominent food influencer based in India, known for creative content on platforms like Twitter.",
+    "platforms": [
+      {
+        "platform": "Twitter",
+        "profile_url": "https://twitter.com/tanvireddy",
+        "profile_image": "https://example.com/profiles/c050.jpg",
+        "followers": 908396,
+        "average_views": 21343,
+        "engagement_rate": 3.06
+      }
+    ]
+  }
+]
