@@ -24958,6 +24958,10 @@ var _home = require("./pages/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _explore = require("./pages/Explore");
 var _exploreDefault = parcelHelpers.interopDefault(_explore);
+var _contractpage = require("./pages/contractpage");
+var _contractpageDefault = parcelHelpers.interopDefault(_contractpage);
+var _invoicepage = require("./pages/invoicepage");
+var _invoicepageDefault = parcelHelpers.interopDefault(_invoicepage);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -24966,35 +24970,59 @@ function App() {
                     path: "/",
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                         fileName: "src/app.jsx",
-                        lineNumber: 11,
+                        lineNumber: 13,
                         columnNumber: 34
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/app.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     path: "/explore",
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _exploreDefault.default), {}, void 0, false, {
                         fileName: "src/app.jsx",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 41
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/app.jsx",
-                    lineNumber: 12,
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/contract",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contractpageDefault.default), {}, void 0, false, {
+                        fileName: "src/app.jsx",
+                        lineNumber: 15,
+                        columnNumber: 42
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/app.jsx",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/invoice",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _invoicepageDefault.default), {}, void 0, false, {
+                        fileName: "src/app.jsx",
+                        lineNumber: 16,
+                        columnNumber: 41
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/app.jsx",
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/app.jsx",
-            lineNumber: 10,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/app.jsx",
-        lineNumber: 9,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -25007,7 +25035,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","./pages/Home":"cORsp","./pages/Explore":"dASyu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"61z4w":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","./pages/Home":"cORsp","./pages/Explore":"dASyu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./pages/contractpage":"3gOR8","./pages/invoicepage":"3nSX2"}],"61z4w":[function(require,module,exports,__globalThis) {
 /**
  * React Router DOM v6.14.2
  *
@@ -33470,16 +33498,81 @@ var prevRefreshSig = globalThis.$RefreshSig$;
 $parcel$ReactRefreshHelpers$44bc.prelude(module);
 
 try {
+// 
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>InfluencerCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _contractutils = require("../utils/contractutils");
+var _signatureutils = require("../utils/signatureutils");
+var _invoiceutils = require("../utils/invoiceutils");
+var _payementutils = require("../utils/payementutils");
+var _s = $RefreshSig$();
 function InfluencerCard({ influencer }) {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
     const profile = influencer.platforms[0];
     const fallbackImage = 'https://via.placeholder.com/80?text=User';
     const collabStatus = influencer.collaboration_open ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800';
+    async function generateVoiceMessage(influencer) {
+        const lang = influencer.languages?.[0]?.toLowerCase() || "english";
+        const name = influencer.name;
+        const category = influencer.category;
+        const platform = influencer.platforms?.[0]?.platform || "Instagram";
+        const prompt = `
+Write a short and friendly outreach message to ${name}, a ${category} influencer, in ${lang}. Mention their content on ${platform} and say we're excited to explore a possible collaboration.
+    `;
+        try {
+            const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Authorization: `Bearer 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`
+                },
+                body: JSON.stringify({
+                    model: "llama3-70b-8192",
+                    messages: [
+                        {
+                            role: "user",
+                            content: prompt
+                        }
+                    ],
+                    temperature: 0.7,
+                    max_tokens: 200
+                })
+            });
+            const data = await res.json();
+            const message = data.choices[0].message.content;
+            const utterance = new SpeechSynthesisUtterance(message);
+            utterance.lang = lang.includes("hindi") ? "hi-IN" : "en-US";
+            speechSynthesis.speak(utterance);
+        } catch (err) {
+            console.error("Voice generation failed", err);
+            alert("Failed to generate or speak the message.");
+        }
+    }
+    function handleGenerateContract(influencer) {
+        const html = (0, _contractutils.generateContract)(influencer);
+        const link = (0, _signatureutils.sendForSignature)(influencer.creator_id);
+        navigate("/contract", {
+            state: {
+                contractHtml: html,
+                link
+            }
+        });
+    }
+    function handleGenerateInvoice(influencer) {
+        const invoice = (0, _invoiceutils.generateInvoice)(influencer);
+        (0, _payementutils.processPayout)(invoice.invoiceId);
+        navigate("/invoice", {
+            state: {
+                invoice
+            }
+        });
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "flex flex-col sm:flex-row gap-4 items-start sm:items-center border rounded-xl p-4 shadow-sm hover:shadow-md bg-white",
         children: [
@@ -33490,7 +33583,7 @@ function InfluencerCard({ influencer }) {
                 onError: (e)=>e.target.src = fallbackImage
             }, void 0, false, {
                 fileName: "src/components/influencercard.jsx",
-                lineNumber: 13,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33501,7 +33594,7 @@ function InfluencerCard({ influencer }) {
                         children: influencer.name
                     }, void 0, false, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 20,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33513,7 +33606,7 @@ function InfluencerCard({ influencer }) {
                         ]
                     }, void 0, true, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 21,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33524,7 +33617,7 @@ function InfluencerCard({ influencer }) {
                         ]
                     }, void 0, true, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 24,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33536,13 +33629,13 @@ function InfluencerCard({ influencer }) {
                                 children: influencer.pricing_tier
                             }, void 0, false, {
                                 fileName: "src/components/influencercard.jsx",
-                                lineNumber: 28,
+                                lineNumber: 89,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 27,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33554,13 +33647,13 @@ function InfluencerCard({ influencer }) {
                                 children: profile.followers.toLocaleString()
                             }, void 0, false, {
                                 fileName: "src/components/influencercard.jsx",
-                                lineNumber: 31,
+                                lineNumber: 92,
                                 columnNumber: 22
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 30,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33571,30 +33664,62 @@ function InfluencerCard({ influencer }) {
                         ]
                     }, void 0, true, {
                         fileName: "src/components/influencercard.jsx",
-                        lineNumber: 33,
+                        lineNumber: 94,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        className: `text-xs px-3 py-1 rounded-full ${collabStatus} font-medium`,
+                        children: influencer.collaboration_open ? 'Open to Collaborate' : 'Not Available'
+                    }, void 0, false, {
+                        fileName: "src/components/influencercard.jsx",
+                        lineNumber: 98,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>generateVoiceMessage(influencer),
+                        className: "mt-3 bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 text-sm",
+                        children: "\uD83D\uDDE3\uFE0F Generate Voice Message"
+                    }, void 0, false, {
+                        fileName: "src/components/influencercard.jsx",
+                        lineNumber: 102,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>handleGenerateContract(influencer),
+                        className: "mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-sm",
+                        children: "\uD83D\uDCC4 Generate Contract"
+                    }, void 0, false, {
+                        fileName: "src/components/influencercard.jsx",
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>handleGenerateInvoice(influencer),
+                        className: "mt-2 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm",
+                        children: "\uD83D\uDCB3 Generate Invoice"
+                    }, void 0, false, {
+                        fileName: "src/components/influencercard.jsx",
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/influencercard.jsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                className: `text-xs px-3 py-1 rounded-full ${collabStatus} font-medium`,
-                children: influencer.collaboration_open ? 'Open to Collaborate' : 'Not Available'
-            }, void 0, false, {
-                fileName: "src/components/influencercard.jsx",
-                lineNumber: 37,
+                lineNumber: 80,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/influencercard.jsx",
-        lineNumber: 12,
+        lineNumber: 72,
         columnNumber: 5
     }, this);
 }
+_s(InfluencerCard, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = InfluencerCard;
 var _c;
 $RefreshReg$(_c, "InfluencerCard");
@@ -33604,6 +33729,276 @@ $RefreshReg$(_c, "InfluencerCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire34d2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"61z4w","../utils/contractutils":"28qAA","../utils/signatureutils":"jSdPA","../utils/invoiceutils":"60mXq","../utils/payementutils":"hGy8H"}],"28qAA":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "generateContract", ()=>generateContract);
+function generateContract(influencer, brandName = "YourBrand") {
+    return `
+    <h2>Collaboration Contract</h2>
+    <p>This contract is between <strong>${brandName}</strong> and influencer <strong>${influencer.name}</strong>.</p>
+    <ul>
+      <li>Platform: ${influencer.platforms[0]?.platform}</li>
+      <li>Category: ${influencer.category}</li>
+      <li>Deliverables: 1 sponsored post</li>
+      <li>Payment: Based on ${influencer.pricing_tier} tier</li>
+      <li>Language: ${influencer.languages.join(', ')}</li>
+    </ul>
+    <p>Date: ${new Date().toLocaleDateString()}</p>
+    <p>Signature: ______________________</p>
+  `;
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jSdPA":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "sendForSignature", ()=>sendForSignature);
+parcelHelpers.export(exports, "getSignatureStatus", ()=>getSignatureStatus);
+const contractStatusStore = {};
+function sendForSignature(influencerId) {
+    contractStatusStore[influencerId] = "sent";
+    return `https://example.com/sign/${influencerId}`;
+}
+function getSignatureStatus(influencerId) {
+    return contractStatusStore[influencerId] || "draft";
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"60mXq":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "generateInvoice", ()=>generateInvoice);
+function generateInvoice(influencer) {
+    const amount = influencer.pricing_tier === "high" ? 50000 : influencer.pricing_tier === "medium" ? 25000 : 10000;
+    return {
+        invoiceId: "INV-" + Math.floor(Math.random() * 100000),
+        influencer: influencer.name,
+        amount,
+        dueDate: new Date(Date.now() + 604800000).toLocaleDateString(),
+        items: [
+            {
+                description: "Sponsored Post",
+                price: amount
+            }
+        ]
+    };
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"hGy8H":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "processPayout", ()=>processPayout);
+parcelHelpers.export(exports, "getPaymentStatus", ()=>getPaymentStatus);
+const paymentStatusStore = {};
+function processPayout(invoiceId) {
+    paymentStatusStore[invoiceId] = "paid";
+}
+function getPaymentStatus(invoiceId) {
+    return paymentStatusStore[invoiceId] || "pending";
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3gOR8":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$d72f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$d72f.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d72f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>ContractPage);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function ContractPage() {
+    _s();
+    const { state } = (0, _reactRouterDom.useLocation)();
+    const { contractHtml, link } = state || {};
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "max-w-3xl mx-auto p-6",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-2xl font-bold mb-4",
+                children: "\uD83D\uDCC4 Contract Preview"
+            }, void 0, false, {
+                fileName: "src/pages/contractpage.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            contractHtml ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "prose max-w-none",
+                dangerouslySetInnerHTML: {
+                    __html: contractHtml + `<p><strong>Signature Link:</strong> <a href="${link}" class="text-blue-600 underline" target="_blank">${link}</a></p>`
+                }
+            }, void 0, false, {
+                fileName: "src/pages/contractpage.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "No contract found."
+            }, void 0, false, {
+                fileName: "src/pages/contractpage.jsx",
+                lineNumber: 14,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/contractpage.jsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_s(ContractPage, "FO3uhfHQFxifE5/pZVC1vAVIA9s=", false, function() {
+    return [
+        (0, _reactRouterDom.useLocation)
+    ];
+});
+_c = ContractPage;
+var _c;
+$RefreshReg$(_c, "ContractPage");
+
+  $parcel$ReactRefreshHelpers$d72f.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3nSX2":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$db7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$db7c.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$db7c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>InvoicePage);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+function InvoicePage() {
+    _s();
+    const { state } = (0, _reactRouterDom.useLocation)();
+    const { invoice } = state || {};
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "max-w-2xl mx-auto p-6",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "text-2xl font-bold mb-4",
+                children: "\uD83D\uDCB3 Invoice"
+            }, void 0, false, {
+                fileName: "src/pages/invoicepage.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            invoice ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "space-y-2 text-gray-700",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: "Invoice ID:"
+                            }, void 0, false, {
+                                fileName: "src/pages/invoicepage.jsx",
+                                lineNumber: 13,
+                                columnNumber: 14
+                            }, this),
+                            " ",
+                            invoice.invoiceId
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/invoicepage.jsx",
+                        lineNumber: 13,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: "Amount:"
+                            }, void 0, false, {
+                                fileName: "src/pages/invoicepage.jsx",
+                                lineNumber: 14,
+                                columnNumber: 14
+                            }, this),
+                            " \u20B9",
+                            invoice.amount
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/invoicepage.jsx",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: "Due Date:"
+                            }, void 0, false, {
+                                fileName: "src/pages/invoicepage.jsx",
+                                lineNumber: 15,
+                                columnNumber: 14
+                            }, this),
+                            " ",
+                            invoice.dueDate
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/invoicepage.jsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                children: "Items:"
+                            }, void 0, false, {
+                                fileName: "src/pages/invoicepage.jsx",
+                                lineNumber: 16,
+                                columnNumber: 14
+                            }, this),
+                            " ",
+                            invoice.items[0].description
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/pages/invoicepage.jsx",
+                        lineNumber: 16,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/pages/invoicepage.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: "No invoice found."
+            }, void 0, false, {
+                fileName: "src/pages/invoicepage.jsx",
+                lineNumber: 19,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/pages/invoicepage.jsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_s(InvoicePage, "FO3uhfHQFxifE5/pZVC1vAVIA9s=", false, function() {
+    return [
+        (0, _reactRouterDom.useLocation)
+    ];
+});
+_c = InvoicePage;
+var _c;
+$RefreshReg$(_c, "InvoicePage");
+
+  $parcel$ReactRefreshHelpers$db7c.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire34d2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=public.31b563d9.js.map

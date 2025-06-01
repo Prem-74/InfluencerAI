@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.mx-auto {
+  margin-inline: auto;
+}
+
 .block {
   display: block;
 }
@@ -88,6 +92,10 @@
 
 .w-full {
   width: 100%;
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 .flex-1 {
@@ -163,6 +171,10 @@
 
 .italic {
   font-style: italic;
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .outline {
